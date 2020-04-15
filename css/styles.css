@@ -1,7 +1,61 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Medium.woff2");
+}
+
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.main-header {
+  background: url("../img/City-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.main-header .primary-overlay {
+  background: rgba(63, 57, 77, 0.5);
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.main-header .showcase .scroll-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 47%;
+  opacity: 0.5;
+}
+
+.box {
+  padding: 40px 10px !important;
+}
+
+.box h4 {
+  padding-bottom: 30px;
+}
+
+.box .section-boxes .row {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 600px) {
+  .box .main-header {
+    height: 50vh;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
