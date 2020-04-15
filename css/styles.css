@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   src: url("../fonts/roboto/Roboto-Medium.woff2");
 }
 
@@ -57,5 +57,22 @@
   .box .main-header {
     height: 50vh;
   }
+}
+
+.about-para {
+  margin-bottom: 3rem;
+}
+
+.section.contact {
+  position: relative;
+}
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 /*# sourceMappingURL=styles.css.map */
