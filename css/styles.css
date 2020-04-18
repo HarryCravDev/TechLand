@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   src: url("../fonts/roboto/Roboto-Medium.woff2");
 }
 
@@ -11,7 +11,7 @@
 }
 
 .main-header {
-  background: url("../img/City-1.jpeg");
+  background: url("https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -49,30 +49,30 @@
   padding-bottom: 30px;
 }
 
-.box .section-boxes .row {
-  margin-bottom: 0 !important;
-}
-
 @media (max-width: 600px) {
   .box .main-header {
     height: 50vh;
   }
 }
 
-.about-para {
-  margin-bottom: 3rem;
+.section-boxes .row {
+  margin-bottom: 0 !important;
 }
 
-.section.contact {
+.about-img {
+  margin-top: 2.5rem;
+}
+
+.section-contact {
   position: relative;
 }
 
-#googlemap {
+#map {
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: -1;
 }
 /*# sourceMappingURL=styles.css.map */
